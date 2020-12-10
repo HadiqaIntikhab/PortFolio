@@ -1,13 +1,98 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html,
 body {
+  width: 100%;
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background-color: white;
 }
+
+#root {
+  width: 100%;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+.trails-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trails-text {
+  position: relative;
+  width: 100%;
+  height: 110px;
+  line-height: 110px;
+  color: black;
+  font-size: 8em;
+  font-weight: 800;
+  letter-spacing: -9px;
+  will-change: transform, opacity;
+  overflow: hidden;
+}
+
+.trails-text > div {
+  overflow: hidden;
+}
+h2{
+    text-align: center;
+    border: lightseagreen;
+    border-width: 2px;
+    border-style: solid;
+}
+
+ul,li{
+  text-align: center;
+}
+body{
+  background: url("./images/image.png");
+  background-size:contain;
+    background-position:top;
+    background: cover;
+}
+#skill{
+  width: 200px;
+  margin: 5px;
+  padding: 10px;
+   /* height: 280px; */ 
+  background-color: #cfc ;
+  /* padding: 5px ; */
+  /* border: 5px outset rgb(240, 109, 109); */
+  border: solid 1px #ccc;
+  border: 5px outset rgb(24, 224, 224);
+
+  display: inline-block;
+
+}
+/* #quali{
+  width: 200px;
+  float: right;
+  height: 200px;
+  background-color: #cfc ;
+  padding: 5px ;
+  border: 1px solid mediumturquoise ;
+  border: 5px outset rgb(24, 224, 224);
+  margin: auto; */
+  
+   
+
+/* } */
