@@ -6,10 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import Main from './Component/Main';
 import Home from './Component/Home';
 import Test from './Component/Test';
+import WithMaterialUI from './Component/WithMaterialUI';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <WithMaterialUI />
   </React.StrictMode>,
   document.getElementById('root')
 );

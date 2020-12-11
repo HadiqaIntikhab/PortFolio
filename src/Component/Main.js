@@ -7,7 +7,8 @@ import {
 } from "react-router-dom";
 import Home from './Home';
 import Projects from './Projects';
-import ContactUs from './ContactUs';
+
+import WithMaterialUI from './WithMaterialUI';
 function Main() {
     return (
 
@@ -16,12 +17,12 @@ function Main() {
             <nav>
             <Link className='link' to='/'>Home</Link><br/>
             <Link className='link' to='/Projects'>Projects</Link><br/>
-            <Link className='link' to='/ContactUs'>ContactUs</Link>
+            <Link className='link' to='/WithMaterialUI'>ContactUs</Link>
             </nav>
               
             <Switch>
             <Route path='/Projects'><Projects /></Route>
-            <Route path='/ContactUs'><ContactUs /></Route>
+            <Route path='/WithMaterialUI'><WithMaterialUI /></Route>
             <Route path='/'><Home /></Route>
             </Switch>
 
